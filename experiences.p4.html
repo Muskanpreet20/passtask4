@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Add your CSS link here -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Define a class for the experience items */
+        .experience-item {
+            border: 1px solid #f4bebe;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #ffe4e4;
+        }
+
+        /* Style headings within the experience items */
+        .experience-item h3 {
+            color: #333;
+        }
+
+        /* Style the list items within the experience items */
+        .experience-item ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        
+        /* Define a CSS class to control the size of the logo */
+        .logo {
+            width: 80px; /* Adjust the width as needed */
+            height: auto; /* Maintain the aspect ratio */
+            margin-right: 10px; /* Add some spacing between the logo and text */
+            display: inline-block; /* Display the logo and text on the same line */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="experiences.html">Experiences</a></li>
+              <li><a href="about.html">My Contact Info</a></li>
+              <li><a href= "getintouch.html">Get in Touch</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+        <h2>Work Experience</h2>
+        
+        <!-- Experience Item 1 -->
+        <div class="experience-item">
+            <h3>Customer Service Representative</h3>
+            <p><strong>Company:</strong> AusPost</p>
+            <p><strong>Location:</strong> Newtown, Vic</p>
+            <p><strong>Dates:</strong> 02/2023 - 05/2023</p>
+            <img src="https://1000logos.net/wp-content/uploads/2019/10/Australia-Post-Logo-19752.png" alt="Australia Post Logo" class="logo">
+            <ul>
+                <li>Handled cash register operations by applying coupons, giving customer totals and processing cash or credit card payments.</li>
+                <li>Banking and lodging parcels.</li>
+                <li>Shared information with customers and worked in a fast-paced environment.</li>
+                <li>Packed, arranged, and labeled stock.</li>
+                <li>Contributed to consistent customer satisfaction.</li>
+            </ul>
+        </div>
+        
+        <!-- Experience Item 2 -->
+        <div class="experience-item">
+            <h3>Tutor</h3>
+            <p><strong>Company:</strong> Success Tutorials</p>
+            <p><strong>Location:</strong> Punjab, India</p>
+            <p><strong>Dates:</strong> 06/2022 - 12/2022</p>
+            <img src="data:image/png;base64,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" alt="Success Tutorials Logo" class ="logo">
+            <ul>
+                <li>Motivated students with accurate feedback and positive reinforcement.</li>
+                <li>Supported students in the development of critical thinking skills and perseverance to persist with challenging tasks.</li>
+                <li>Worked closely with students on specific class struggles, closely reviewing materials and assignments to offer targeted help.</li>
+                <li>Responded to email and telephone requests to provide students with specific information.</li>
+                <li>Enabled underachieving students to reach target attainment levels by providing individualized coaching and activities.</li>
+                <li>Managed over 10-15 students per day.</li>
+            </ul>
+        </div>
+
+        <!-- Experience Item 3 -->
+        <div class="experience-item">
+            <h3>Customer Service Representative</h3>
+            <p><strong>Company:</strong> Idea Communication</p>
+            <p><strong>Location:</strong> Punjab, India</p>
+            <p><strong>Dates:</strong> 04/2022 - 06/2022</p>
+            <img src="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1419569953/blmupufjdjrppi70olbk.jpg" alt="Idea Communications logo" class="logo">            <ul>
+                <li>Liaised with sales, marketing, and management teams to develop solutions and accomplish shared objectives.</li>
+                <li>Developed customer service policies and procedures to meet and exceed industry service standards.</li>
+                <li>Calculated correct order totals, updated accounts, and maintained detailed records for inventory management.</li>
+                <li>Responded to customer requests for products, services, and company information.</li>
+                <li>Processed customer service orders promptly to increase customer satisfaction.</li>
+            </ul>
+        </div>
+       
+        
+    </section>
+    <script src="main.js"></script>
+    <script src="router.js"></script>
+    
+    
+</body>
+</html>
